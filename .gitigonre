@@ -1,4 +1,4 @@
-# Byte-compiled / optimized / DLL files
+﻿# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -83,17 +83,17 @@ ipython_config.py
 # pyenv
 .python-version
 
-OBOBOB# pipenv
+# pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies
 #   having no cross-platform support, pipenv may install dependencies that don't work, or not
-OBOBOB#   install all needed dependencies.
-OBOBOB#Pipfile.lock
-OBOBOB
-# celery beat schedule file
-OBOBOBcelerybeat-schedule
+#   install all needed dependencies.
+#Pipfile.lock
 
-OBOBOB# SageMath parsed files
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
 *.sage.py
 
 # Environments
@@ -122,3 +122,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#Pycharme
+.idea/
