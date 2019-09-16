@@ -1,0 +1,1 @@
+class AuctionException(Exception): pass
